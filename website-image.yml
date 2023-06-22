@@ -16,5 +16,5 @@
       command: docker push jwaladocker/website:latest
 
     - name: remove docker images from ansible server
-      command: docker rmi website:latest website
+      command: docker rmi website:latest jwaladocker/website:latest
       ignore_errors: yes
