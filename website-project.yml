@@ -20,4 +20,4 @@
       command: docker pull docker.io/jwaladocker/website:latest
 
     - name: creating docker container using simple-devops-image
-      command: docker run -d --name website -p 8080:8080 jwaladocker/website:latest
+      command: docker run -d --name website -p 8080:80 jwaladocker/website:latest
